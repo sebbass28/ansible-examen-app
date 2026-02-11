@@ -1,6 +1,6 @@
 const express = require("express");
 const app = express();
-const port = 3000;
+const port = 8080;
 
 app.get("/", (req, res) => {
   res.send(`
@@ -65,8 +65,8 @@ app.get("/", (req, res) => {
     <body>
       <div class="container">
         <h1>🚀 ¡Despliegue Exitoso!</h1>
-        <p>Esta aplicación ha sido desplegada automáticamente usando <strong>Ansible</strong> y <strong>GitHub Actions</strong>.</p>
-        <p>Preparado por: <strong>Tu Nombre</strong></p>
+        <p>Examen DAW Despliegue inicial</p>
+        <p>Preparado por: <strong>Sebas</strong></p>
         <a href="#" class="btn">Ver Documentación</a>
         <div class="footer">
           <p>Examen de Automatización - 2026</p>

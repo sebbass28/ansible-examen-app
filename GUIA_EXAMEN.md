@@ -65,11 +65,11 @@ Aquí hay dos interpretaciones posibles (pregunta al profesor si tienes duda):
 
 ### A. Puerto de la Aplicación (Node.js)
 
-Si te piden cambiar el puerto donde escucha tu aplicación web (actualmente 3000):
+Si te piden cambiar el puerto donde escucha tu aplicación web (actualmente 8080):
 
 - **Archivo a modificar:** `app/index.js`
 - **Línea:** 3
-- **Acción:** Cambia `const port = 3000;` por el nuevo puerto (ej. 8080).
+- **Acción:** Cambia `const port = 8080;` por el nuevo puerto (ej. 8080).
 
 ```javascript
 const port = 8080; // <--- CAMBIAR AQUÍ
@@ -127,7 +127,7 @@ Este paso es CRÍTICO porque el workflow hace comprobaciones de conectividad ant
 
 - **Archivo a modificar:** `.github/workflows/deploy.yml`
 - **Líneas:** 34, 35 y 40
-- **Acción:** Reemplaza `54.234.173.105` por la nueva IP en **todos** estos lugares.
+- **Acción:** Reemplaza `52.87.54.252` por la nueva IP en **todos** estos lugares.
 
 ```yaml
 # Línea 34

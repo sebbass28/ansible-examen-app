@@ -9,7 +9,7 @@
 
 - name: Checkout app code from repo
   git:
-    repo: "https://github.com/sebbass28/ansible.git"
+    repo: "https://github.com/sebbass28/ansible-examen-app.git"
     dest: /home/{{ ansible_user }}/apps/myapp
     version: "{{ git_ref | default('main') }}"
     force: yes
